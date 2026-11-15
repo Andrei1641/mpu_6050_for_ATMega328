@@ -1,0 +1,3 @@
+[submodule "I2C"]
+	path = I2C
+	url = https://github.com/Andrei1641/I2C-for-ATMega328.git
