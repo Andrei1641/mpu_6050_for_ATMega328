@@ -3,9 +3,9 @@
 
 struct i2cInterface;
 
-uint8_t initGyro(struct i2cInterface *i2c);
-uint8_t initAccel(struct i2cInterface *i2c);
-uint8_t readGyro(struct i2cInterface *i2c, uint8_t returnValues[6]);
-uint8_t readAccel(struct i2cInterface *i2c, uint8_t, returnValues[6]);
+uint8_t initGyro(const struct i2cInterface *i2c);
+uint8_t initAccel(const struct i2cInterface *i2c);
+uint8_t readGyro(const struct i2cInterface *i2c, uint8_t returnValues[6]);
+uint8_t readAccel(const struct i2cInterface *i2c, uint8_t returnValues[6]);
 
 #endif
